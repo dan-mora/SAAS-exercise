@@ -1,0 +1,28 @@
+{
+  "name": "saas-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-mora/SAAS-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dan-mora/SAAS-exercise/issues"
+  },
+  "homepage": "https://github.com/dan-mora/SAAS-exercise#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^5.3.4",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
